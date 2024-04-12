@@ -19,7 +19,7 @@ export default function Footer() {
                 <h3 className="text-lg font-bold">Made by</h3>
                 <ul>
                     <li>
-                        <a href="https://www.aedin.com/in/luis-guzman-bautista/" target="_blank" rel="nonoreferrer noopener" className="text-sm">aedIn</a>
+                        <a href="https://www.aedin.com/in/luis-guzman-bautista/" target="_blank" rel="nonoreferrer noopener" className="text-sm">LinkedIn</a>
                     </li>
                     <li>
                         <a href="https://github.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">GitHub</a>
