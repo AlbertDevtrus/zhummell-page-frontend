@@ -21,7 +21,7 @@ export default function Header() {
 
     return (
       <header className="fixed flex w-full justify-around h-24 items-center bg-black z-10">
-        <a href="/" className="text-3xl font-grotesk select-none">ZHUMELL</a>
+        <Link to="/" className="text-3xl font-grotesk select-none">ZHUMELL</Link>
         <div onClick={() => setActive(!active)} className="relative cursor-pointer md:hidden">
           <button 
             className={`

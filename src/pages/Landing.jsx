@@ -25,7 +25,7 @@ export default function Landing() {
                         WE'VE CHANGED THE FACE OF <span className="text-gray-300 bg-white bg-opacity-10">PRECISION OPTICS</span>
                     </h1>
                     <h2 className="text-xl text-gray-400 animate-fade-right animate-delay-200">NEW LOOK, SAME EXCEPTIONAL PRODUCTS</h2>
-                    <a href="/catalog" className='absolute bg-white text-black font-lexend py-2 px-4 rounded-sm text-xl bottom-14 hover:bg-gray-300 transition-all duration-200 animate-fade-right'>Buy here!</a>
+                    <Link to="/catalog" className='absolute bg-white text-black font-lexend py-2 px-4 rounded-sm text-xl bottom-14 hover:bg-gray-300 transition-all duration-200 animate-fade-right'>Buy here!</a>
                 </div>
 
                 <div className="hidden lg:flex items-center opacity-100">
