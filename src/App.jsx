@@ -23,7 +23,6 @@ function App() {
               <Route index element={<Landing />}></Route>
               <Route path='login' element={<Login />}></Route>
               <Route path='register' element={<Register />}></Route>
-              {/*<Route path='confirm/:id' element={<Landing />}></Route> */}
               <Route path='shop' element={<Shop />}></Route>
               <Route path='buy/success' element={<SuccessPage />}></Route>
               <Route path='catalog'>
