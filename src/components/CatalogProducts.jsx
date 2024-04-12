@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Product from "./Product"
-import arrow from '../assets/arrow.svg';
+import arrow from '/public/static/arrow.svg';
 
 
 export default function CatalogProducts({ products }) {

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import check from '../assets/check.svg'
+import check from '/public/static/check.svg'
 
 export default function SuccessPage() {
     return (

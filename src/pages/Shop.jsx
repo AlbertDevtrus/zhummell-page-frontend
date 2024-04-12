@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import useAuth from "../hooks/useAuth";
 import { Link, useNavigate } from 'react-router-dom'
-import noShop from '../assets/no-shop.svg'
+import noShop from '/public/static/no-shop.svg'
 import Modal from "../components/Modal";
 import Spinner from "../components/Spinner";
 

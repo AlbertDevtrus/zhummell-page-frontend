@@ -2,7 +2,7 @@ import { useState } from "react";
 import useAuth from "../hooks/useAuth"
 import Modal from "./Modal";
 import { Link, useNavigate } from "react-router-dom";
-import shopping from '../assets/shopping.svg'
+import shopping from '/public/static/shopping.svg'
 
 export default function Header() {
 

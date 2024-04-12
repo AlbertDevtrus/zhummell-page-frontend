@@ -1,9 +1,9 @@
 import System from "../components/System"
 import Product from "../components/Product"
 
-import warranty from '../assets/warranty.svg'
-import walk from '../assets/walk.svg'
-import robot from '../assets/robot.svg'
+import warranty from '/public/static/warranty.svg'
+import walk from '/public/static/walk.svg'
+import robot from '/public/static/robot.svg'
 import useIntersection from "../hooks/useIntersection"
 import Division from "../components/Division"
 
@@ -63,7 +63,7 @@ export default function Landing() {
             <section 
                 className="h-96 w-full bg-cover bg-left-bottom flex justify-around gap-4 p-4 items-center" 
                 style={{
-                    backgroundImage: "url('../assets/saturn.jpg')",
+                    backgroundImage: "url('/public/static/saturn.jpg')",
                 }}
                 ref={numbersRef}
             >

@@ -8,7 +8,7 @@ import axiosClient from "../config/axios";
 import Modal from "../components/Modal";
 import Spinner from "../components/Spinner";
 import Table from "../components/Table";
-import shopping from '../assets/shopping.svg'
+import shopping from '/public/static/shopping.svg'
 import Gallery from "../components/Gallery";
 import Alert from "../components/Alert";
 import useAuth from "../hooks/useAuth";

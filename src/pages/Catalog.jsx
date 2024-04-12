@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react"
 import axiosClient from "../config/axios";
 import { Link } from "react-router-dom";
-import Product from "../components/Product";
 import Spinner from "../components/Spinner";
 
-import arrow from '../assets/arrow.svg';
 import CatalogProducts from "../components/CatalogProducts";
 
 export default function Catalog() {
