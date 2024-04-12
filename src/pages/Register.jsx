@@ -102,7 +102,7 @@ export default function Register() {
                     />
                     <p className="mt-12 text-sm text-gray-400">
                         Do you have an account?
-                        <a href="/login" className="text-white hover:text-gray-400 transition-colors duration-150"> Login</a>
+                        <Link to="/login" className="text-white hover:text-gray-400 transition-colors duration-150"> Login</Link>
                     </p>
                     <button className="bg-white text-black font-lexend py-2 px-2 rounded-sm text-base hover:bg-gray-300 transition-all duration-200 mt-3">Submit</button>
                 </form>

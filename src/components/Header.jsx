@@ -46,9 +46,9 @@ export default function Header() {
             {
               Object.keys(auth).length === 0 ?
                   <li className="flex items-center">
-                    <a href="/login" className='bg-white text-black font-lexend py-1 px-2 rounded-sm text-base hover:bg-gray-300 transition-all duration-200'>
+                    <Link to="/login" className='bg-white text-black font-lexend py-1 px-2 rounded-sm text-base hover:bg-gray-300 transition-all duration-200'>
                       Log In
-                    </a>
+                    </Link>
                   </li>
                 :
                   <li className="flex items-center">

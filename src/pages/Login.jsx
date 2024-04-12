@@ -3,7 +3,7 @@ import Alert from "../components/Alert";
 import System from "../components/System";
 import useAuth from "../hooks/useAuth"
 import axiosClient from "../config/axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Login() {
     
@@ -72,7 +72,7 @@ export default function Login() {
                     />
                     <p className="mt-20 text-sm text-gray-400">
                         Don't have an account yet?
-                        <a href="/register" className="text-white hover:text-gray-400 transition-colors duration-150"> Register</a>
+                        <Link to="/register" className="text-white hover:text-gray-400 transition-colors duration-150"> Register</Link>
                     </p>
                     <button className="bg-white text-black font-lexend py-2 px-2 rounded-sm text-base hover:bg-gray-300 transition-all duration-200 mt-3">Submit</button>
                 </form>
