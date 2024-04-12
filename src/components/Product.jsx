@@ -8,7 +8,7 @@ export default function Product({ product, price = null, id = null, srcImage, na
             className={`animate-fade h-[500px] w-72 overflow-hidden flex flex-col justify-center border-2 border-white border-opacity-25 transition-colors duration-200 ${price ?'pt-2 pb-1':'pt-1'} ${id ? 'hover:bg-white hover:bg-opacity-15' : ''}`}
         >
             <img 
-                src={srcImage ? srcImage : `/public/static/products/${product}.png`}
+                src={srcImage ? srcImage : `../static/products/${product}.png`}
                 className="h-4/5 w-[95%] object-cover bg-white hover:bg-opacity-15 rounded-md bg-opacity-5 self-center active:scale-95 duration-50 transition-all"
                 alt={`image of the product ${name}`}
             />

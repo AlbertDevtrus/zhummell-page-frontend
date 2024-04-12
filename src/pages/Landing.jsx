@@ -63,7 +63,7 @@ export default function Landing() {
             <section 
                 className="h-96 w-full bg-cover bg-left-bottom flex justify-around gap-4 p-4 items-center" 
                 style={{
-                    backgroundImage: "url('/public/static/saturn.jpg')",
+                    backgroundImage: "url('../static/saturn.jpg')",
                 }}
                 ref={numbersRef}
             >
