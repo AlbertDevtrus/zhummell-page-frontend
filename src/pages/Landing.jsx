@@ -7,6 +7,8 @@ import robot from '/public/static/robot.svg'
 import useIntersection from "../hooks/useIntersection"
 import Division from "../components/Division"
 
+import { Link } from 'react-router-dom'
+
 export default function Landing() {
 
     const [benefitsRef, intersectingBenefits] = useIntersection({ threshold: 0.5 });

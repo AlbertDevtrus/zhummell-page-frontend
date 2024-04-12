@@ -5,13 +5,13 @@ export default function Footer() {
                 <h3 className="text-lg font-bold">Products</h3>
                 <ul>
                     <li>
-                        <Link to="/catalog/telescopes" className="text-sm">Telescopes</Link>
+                        <a href="/catalog/telescopes" className="text-sm">Telescopes</a>
                     </li>
                     <li>
-                        <Link to="/catalog/binoculars" className="text-sm">Binoculars</Link>
+                        <a href="/catalog/binoculars" className="text-sm">Binoculars</a>
                     </li>
                     <li>
-                        <Link to="/catalog/accessories" className="text-sm">Accessories</Link>
+                        <a href="/catalog/accessories" className="text-sm">Accessories</a>
                     </li>
                 </ul>
             </div>
@@ -19,13 +19,13 @@ export default function Footer() {
                 <h3 className="text-lg font-bold">Made by</h3>
                 <ul>
                     <li>
-                        <Link to="https://www.linkedin.com/in/luis-guzman-bautista/" target="_blank" rel="nonoreferrer noopener" className="text-sm">LinkedIn</Link>
+                        <a href="https://www.aedin.com/in/luis-guzman-bautista/" target="_blank" rel="nonoreferrer noopener" className="text-sm">aedIn</a>
                     </li>
                     <li>
-                        <Link to="https://github.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">GitHub</Link>
+                        <a href="https://github.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">GitHub</a>
                     </li>
                     <li>
-                        <Link to="https://twitter.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">Twitter/X</Link>
+                        <a href="https://twitter.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">Twitter/X</a>
                     </li>
                 </ul>
             </div>
