@@ -24,7 +24,7 @@ This is the **frontend** of Zhumell Shop, a simulated e-commerce platform for as
 ---
 
 ## 📁 Folder Structure
-
+```
 src/
 │
 ├── components/ # Reusable UI components (Modal, Gallery, Product, etc.)
@@ -35,7 +35,7 @@ src/
 ├── pages/ # Application routes (Landing, Login, Shop, etc.)
 ├── App.jsx # Main router setup
 └── main.jsx # React entry point
-
+```
 ---
 
 ## 🔐 Features
