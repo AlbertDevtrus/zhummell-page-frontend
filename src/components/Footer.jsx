@@ -22,7 +22,7 @@ export default function Footer() {
                         <a href="https://www.linkedin.com/in/luis-guzman-bautista/" target="_blank" rel="nonoreferrer noopener" className="text-sm">LinkedIn</a>
                     </li>
                     <li>
-                        <a href="https://github.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">GitHub</a>
+                        <a href="https://github.com/AlbertDevtrus" className="text-sm" target="_blank" rel="nonoreferrer noopener">GitHub</a>
                     </li>
                     <li>
                         <a href="https://twitter.com/TimmyElTaco" className="text-sm" target="_blank" rel="nonoreferrer noopener">Twitter/X</a>
