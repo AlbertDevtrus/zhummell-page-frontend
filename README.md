@@ -6,7 +6,7 @@ This is the **frontend** of Zhumell Shop, a simulated e-commerce platform for as
 
 ## 🧪 Live Demo
 
-🌐 [Live Frontend on Vercel](https://zhumell-shop.vercel.app) (It may take a while to load the products, as this is a test site with a cold start.)
+🌐 [Live Frontend on Vercel](https://zhummell-no-official.vercel.app/) (It may take a while to load the products, as this is a test site with a cold start.)
 
 🔗 [Backend Repo (Node.js + MongoDB)](https://github.com/AlbertDevtrus/zhumell-page-backend)
 
